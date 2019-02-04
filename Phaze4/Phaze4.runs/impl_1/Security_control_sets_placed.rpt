@@ -1,0 +1,75 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sat Jan 20 19:08:37 2018
+| Host         : DESKTOP-9PKS9O4 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Security_control_sets_placed.rpt
+| Design       : Security
+| Device       : xc7vx485t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    22 |
+| Minimum Number of register sites lost to control set restrictions |    73 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             114 |           40 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              69 |           21 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+---------------+--------------------+------------------+----------------+
+|       Clock Signal       | Enable Signal |  Set/Reset Signal  | Slice Load Count | Bel Load Count |
++--------------------------+---------------+--------------------+------------------+----------------+
+|  en_reg_i_2_n_0          |               |                    |                1 |              1 |
+|  enM_reg_i_2_n_0         |               |                    |                1 |              1 |
+|  en10_reg_i_2_n_0        |               |                    |                1 |              1 |
+|  Alarm_reg_i_2_n_0       |               |                    |                1 |              1 |
+|  user_reg[3]_i_2_n_0     |               |                    |                2 |              4 |
+|  oldPass[3]              |               |                    |                1 |              4 |
+|  oldPass[2]              |               |                    |                1 |              4 |
+|  oldPass[1]              |               |                    |                1 |              4 |
+|  oldPass[0]              |               |                    |                1 |              4 |
+|  newPass[3]              |               |                    |                1 |              4 |
+|  newPass[2]              |               |                    |                1 |              4 |
+|  newPass[1]              |               |                    |                1 |              4 |
+|  newPass[0]              |               |                    |                2 |              4 |
+|  AlarmNum_reg[3]_i_2_n_0 |               |                    |                1 |              4 |
+|  clk_IBUF_BUFG           |               | rst_IBUF           |                5 |              5 |
+|  clk_IBUF_BUFG           |               |                    |                2 |              6 |
+|  Passwords[4][0]         |               |                    |                7 |             16 |
+|  Passwords[3][0]         |               |                    |                4 |             16 |
+|  Passwords[2][0]         |               |                    |                5 |             16 |
+|  Passwords[1][0]         |               |                    |                6 |             16 |
+|  clk_IBUF_BUFG           |               | count10[0]_i_1_n_0 |                8 |             32 |
+|  clk_IBUF_BUFG           |               | clear              |                8 |             32 |
++--------------------------+---------------+--------------------+------------------+----------------+
+
+

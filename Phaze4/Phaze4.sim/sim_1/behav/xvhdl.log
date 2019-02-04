@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/negfi/Documents/AUT/5thSemester/DigitalDesignAutomation/Phaze4/Phaze4/Phaze4.srcs/sources_1/new/Security.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Security
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/negfi/Documents/AUT/5thSemester/DigitalDesignAutomation/Phaze4/Phaze4/Phaze4.srcs/sim_1/new/Test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Test

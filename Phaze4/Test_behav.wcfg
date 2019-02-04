@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Test" />
+            <top_module name="mypackage" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9191028000fs"></ZoomStartTime>
+      <ZoomEndTime time="9652028001fs"></ZoomEndTime>
+      <Cursor1Time time="15400000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="15" />
+   <wvobject db_ref_id="1" fp_name="/Test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/Door" type="logic">
+      <obj_property name="ElementShortName">Door</obj_property>
+      <obj_property name="ObjectShortName">Door</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/Window" type="logic">
+      <obj_property name="ElementShortName">Window</obj_property>
+      <obj_property name="ObjectShortName">Window</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/Alarm" type="logic">
+      <obj_property name="ElementShortName">Alarm</obj_property>
+      <obj_property name="ObjectShortName">Alarm</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/Command" type="array">
+      <obj_property name="ElementShortName">Command[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Command[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/S/CURS" type="other">
+      <obj_property name="ElementShortName">CURS</obj_property>
+      <obj_property name="ObjectShortName">CURS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/S/NEXTS" type="other">
+      <obj_property name="ElementShortName">NEXTS</obj_property>
+      <obj_property name="ObjectShortName">NEXTS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/S/Passwords" type="array">
+      <obj_property name="ElementShortName">Passwords[1:4][0:3]</obj_property>
+      <obj_property name="ObjectShortName">Passwords[1:4][0:3]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/S/oldPass0" type="array">
+      <obj_property name="ElementShortName">oldPass0[0:5]</obj_property>
+      <obj_property name="ObjectShortName">oldPass0[0:5]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/S/count" type="other">
+      <obj_property name="ElementShortName">count</obj_property>
+      <obj_property name="ObjectShortName">count</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/S/count10" type="other">
+      <obj_property name="ElementShortName">count10</obj_property>
+      <obj_property name="ObjectShortName">count10</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/S/count5" type="other">
+      <obj_property name="ElementShortName">count5</obj_property>
+      <obj_property name="ObjectShortName">count5</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/S/Alarm" type="logic">
+      <obj_property name="ElementShortName">Alarm</obj_property>
+      <obj_property name="ObjectShortName">Alarm</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Test/S/newPass0" type="array">
+      <obj_property name="ElementShortName">newPass0[0:3]</obj_property>
+      <obj_property name="ObjectShortName">newPass0[0:3]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1516462625">
+  <File Type="OPT-DCP" Name="Security_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Security_postroute_physopt.dcp"/>
+  <File Type="PA-DCP" Name="Security.dcp"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="ROUTE-DCP" Name="Security_routed.dcp"/>
+  <File Type="PA-TCL" Name="Security.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="Security_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Security_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="Security.hwdef"/>
+  <File Type="OPT-TIMING" Name="Security_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Security_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Security_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Security_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Security_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Security_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Security_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Security_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Security_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Security_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Security_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Security_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Security_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Security_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Security_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Security_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="Security.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="Security_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Security_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="Security_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Security_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Security_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Security_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Security_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Security_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Security_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Security_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Security_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Security_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Security_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Security_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Security_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Security_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Security.bit"/>
+  <File Type="BG-BIN" Name="Security.bin"/>
+  <File Type="BITSTR-MSK" Name="Security.msk"/>
+  <File Type="BITSTR-RBT" Name="Security.rbt"/>
+  <File Type="BITSTR-NKY" Name="Security.nky"/>
+  <File Type="BITSTR-BMM" Name="Security_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Security.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Security.sysdef"/>
+  <File Type="BG-BGN" Name="Security.bgn"/>
+  <File Type="BG-DRC" Name="Security.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Security.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Security"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
